@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+ <title>Maze</title>
+ <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+ <div class="login-page">
+  <div class="form">
+   <form class="register-form" action=main.html onClick="return nextpage()" method ="post">
+    <input type="text" id ="name" placeholder="What's Your Name?"/>
+    <input type="text" id = "v1" placeholder="What's Your Favourite Filter?"/>
+    <input type="text" id = "v2" placeholder="What's Your Favourite Task Of The Day?"/>
+    <button>Click Here To Move Forward</button>
+   </form>
+  </div>
+ </div>
+ <script>
+  function nextpage(){
+  var a = document.getElementById('name').value;
+  var b = document.getElementById('v1').value;
+  var c = document.getElementById('v2').value;
+  if(a=="NITI"&&b=="LOVE"&&(c=="SONA" || c=="SLEEPING" || c=="GUDDU" || c=="BABIES"))
+  {
+   return true
+  }
+  }
+ </script>
+</body>
+</html>

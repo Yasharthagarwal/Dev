@@ -1,0 +1,52 @@
+body{
+background-image: url(b2.jpeg);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: 1400px 690px;
+background-position: right;
+background-color: /*rgb(247, 166, 91)#551606*/black;
+
+}
+.login-page{
+ width: 360px;
+ padding: 10% 0 0;
+ margin: auto;
+
+}
+.form{
+ position: relative;
+ right: 400px;
+ z-index: 1;
+ background-color:transparent;
+ max-width: 360px;
+ margin: 0 auto 100px;
+ padding: 45px;
+ text-align: center;
+}
+.form input{
+ font-family: "Roboto",sans-serif;
+ outline: 1;
+ background: transparent;
+ width: 190%;
+ border: 10px black;
+ margin: 0 0 15px;
+ padding: 15px;
+ box-sizing: 100 px black;
+ box-shadow: black;
+ font-size: 27px;
+ color: white;
+ 
+}
+
+.form button{
+ font-family: "Roboto",sans-serif;
+ text-transform: uppercase;
+ outline: 1;
+ background:transparent;
+ width: 190%;
+ border: 600px;
+ border-color: black;
+ padding: 30px;
+ color:#F8F8FF;
+ font-size: 25px;
+}
